@@ -8,7 +8,7 @@ def load_data(file_path):
     return data
 
 # Load your dataset
-file_path = "country_wise_latest.csv"  # Replace with your file path
+file_path = "https://github.com/Salman-Hosen/covid_dashbord/blob/main/country_wise_latest.csv"  # Replace with your file path
 data = load_data(file_path)
 
 # Set up Streamlit
