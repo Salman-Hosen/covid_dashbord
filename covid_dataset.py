@@ -10,7 +10,7 @@ def load_data(file_path):
     return data
 
 # Load your dataset
-file_path = "covid_dataset/country_wise_latest.csv"  # Replace with your file path
+file_path = "country_wise_latest.csv"  # Replace with your file path
 data = load_data(file_path)
 
 # Set up Streamlit
